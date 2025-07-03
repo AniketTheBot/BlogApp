@@ -22,7 +22,7 @@ export default function PostForm({ post }) {
       defaultValues: {
         title: post?.title || "",
         slug: post?.slug || "",
-        content: post?.content || "Start writing your amazing post here...",
+        content: post?.content || "",
         status: post?.status || "active",
       },
     });
@@ -108,6 +108,7 @@ export default function PostForm({ post }) {
         />
         <RTE
           label="Content:"
+          placeholder = "Start writing your amazing post here..."
           name="content"
           control={control}
           defaultValue={getValues("content")}

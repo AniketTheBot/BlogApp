@@ -3,12 +3,13 @@ import { Editor } from "@tinymce/tinymce-react";
 import conf from "../conf";
 import { Controller } from "react-hook-form";
 
-function RTE({ name, control, label, defaultValue = "" }) {
+function RTE({ name, control, label, defaultValue = "", placeholder }) {
   return (
     <div>
       {label && <label className=" inline-block mb-1 pl-1">{label}</label>}
       <Controller
         name={name || "content"}
+        placeholder = {placeholder}
         control={control}
         render={({ field: { onChange } }) => (
           <Editor
