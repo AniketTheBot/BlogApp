@@ -108,7 +108,6 @@ export default function PostForm({ post }) {
         />
         <RTE
           label="Content:"
-          placeholder = "Start writing your amazing post here..."
           name="content"
           control={control}
           defaultValue={getValues("content")}
