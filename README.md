@@ -1,6 +1,7 @@
 # Blogify - A Modern Full-Stack Blog Platform
 
-![image](https://github.com/user-attachments/assets/31e1b89e-85d6-488c-8f1e-d1fd83d6a584)
+<img width="1916" height="941" alt="image" src="https://github.com/user-attachments/assets/b7979fa8-f3c4-482d-858e-f36d43ac5cad" />
+
  <!-- (1) ADD A SCREENSHOT HERE -->
 
 A feature-rich, modern blog application built from the ground up with React, Redux Toolkit, and an Appwrite backend. This project demonstrates a complete full-stack development cycle from a frontend perspective, including user authentication, CRUD operations, state management, and real-world application architecture.
